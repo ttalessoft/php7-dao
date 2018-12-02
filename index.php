@@ -23,8 +23,12 @@
     // $usr->insert();
     // echo $usr;
 
+    // $usr->loadbyId(49);
+    // $usr->update("TTSOFT", "7760f7");
+    // echo $usr;
+
     $usr->loadbyId(49);
 
-    $usr->update("TTSOFT", "7760f7");
+    $usr->delete();
 
     echo $usr;
