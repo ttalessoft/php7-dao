@@ -17,4 +17,14 @@
     // $usr->login("user", "senha1234");
     // echo $usr;
 
-    
+    // $usr = new Usuario("maria", "m4r1@");
+    // $usr->setDeslogin("ttales r g s silva");
+    // $usr->setDessenha("aa45bb");
+    // $usr->insert();
+    // echo $usr;
+
+    $usr->loadbyId(49);
+
+    $usr->update("TTSOFT", "7760f7");
+
+    echo $usr;
